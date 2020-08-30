@@ -8,10 +8,10 @@ Technology excites me. I love to learn new technology and building applications.
 You can ask me in person for other stories that I'm afraid to share with the internet.
 <br><br>
 #### I like
+- Coding
 - Playing volleyball
 - My little home town
 - Travel
-- Code
 - [Books](https://www.goodreads.com/subin99)
 - [Photography](https://instagram.com/_subin)
 
@@ -28,7 +28,8 @@ You can ask me in person for other stories that I'm afraid to share with the int
 
 #### I dream of
 
+- Builiding companies and generating jobs
 - always finding inspiration.
 - enabling a brighter future.
 - doing better.
-- Builiding companies and generating jobs
+

@@ -9,11 +9,16 @@ const PersonalStats = () => {
   const tick = () => {
     const divisor = 1000 * 60 * 60 * 24 * 365.2421897; // ms in an average year
     const birthTime = new Date('1988-06-15T09:24:00');
+    const workstarttime = new Date('2009-09-15T00:00:00');
     setData({
       ...data,
       age: {
         label: 'Current age',
         value: ((Date.now() - birthTime) / divisor).toFixed(11),
+      },
+      yearsofexp: {
+        label: 'Years of work exp',
+        value: ((Date.now() - workstarttime) / divisor).toFixed(11),
       },
     });
   };

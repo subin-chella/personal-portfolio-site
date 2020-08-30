@@ -11,7 +11,7 @@ const data = {
   location: {
     label: 'Current city',
     value: 'Chennai, IN',
-  },
+  }
 };
 
 export default data;

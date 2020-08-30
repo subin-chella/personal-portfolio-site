@@ -23,7 +23,7 @@ const Nav = () => (
       <p>Hi, I&apos;m Subin. I'm a tech enthusiastic and love building things.
         I am an <a href="https://www.annauniv.edu/">Engineering</a> graduate, <a href="https://www.ycombinator.com/">YC</a> Alumni.
         Currently works for <a href="https://www.lntinfotech.com/">LTI</a>, Before that worked with <a href="http://www.aonhumancapital.co.in/"> Aon Hewitt</a> ,
-        <a href="https://www.ust-global.com/">UST Global</a>
+        <a href="https://www.ust-global.com/"> UST Global</a>
       </p>
       <ul className="actions">
         <li>
@@ -37,7 +37,7 @@ const Nav = () => (
         {data.map((s) => (
           <li key={s.label}>
             <a href={s.link}>
-              <FontAwesomeIcon icon={s.icon} />
+              <FontAwesomeIcon icon={s.icon} /> 
             </a>
           </li>
         ))}

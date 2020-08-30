@@ -1,6 +1,3 @@
-// TODO: Add Athletic Skills, Office Skills,
-// Data Engineering, Data Science, ML Engineering, ... ?
-
 const skills = [{
   title: 'Javascript',
   competency: 3,
@@ -22,6 +19,11 @@ const skills = [{
   category: ['Tools', 'Languages'],
 },
 {
+  title: 'Jira',
+  competency: 2,
+  category: ['Tools'],
+},
+{
   title: 'Amazon Web Services',
   competency: 4,
   category: ['Web Development', 'Tools'],
@@ -30,12 +32,19 @@ const skills = [{
   title: 'OracleDB',
   competency: 4,
   category: ['Web Development', 'Databases', 'Languages'],
+},{
+  title: 'ETL',
+  competency: 4,
+  category: ['Web Development', 'Databases', 'Languages'],
 },
-,
 {
   title: 'MySql',
   competency: 4,
   category: ['Web Development', 'Databases', 'Languages'],
+},{
+  title: 'Java',
+  competency: 5,
+  category: ['Languages', 'Java'],
 },
 {
   title: 'Git/Bitbucket',
@@ -48,11 +57,7 @@ const skills = [{
   competency: 3,
   category: ['Web Development', 'Languages'],
 },
-{
-  title: 'Java',
-  competency: 5,
-  category: ['Languages', 'Java'],
-},
+
 {
   title: 'Python',
   competency: 2,
@@ -85,6 +90,11 @@ const skills = [{
 },
 {
   title: 'OIDC',
+  competency: 5,
+  category: ['Web Development','Java'],
+},
+{
+  title: 'SAML',
   competency: 5,
   category: ['Web Development','Java'],
 },
@@ -134,6 +144,21 @@ const skills = [{
   title: 'JMS',
   competency: 3,
   category: ['Java'],
+},
+{
+  title: 'nodejs',
+  competency: 3,
+  category: ['Server', 'Tools'],
+},
+{
+  title: 'npm',
+  competency: 3,
+  category: ['Tools'],
+},
+{
+  title: 'Jenkins',
+  competency: 5,
+  category: ['Tools'],
 }
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
