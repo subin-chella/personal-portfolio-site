@@ -1,6 +1,6 @@
 
 #### Intro
-I am currently working for [LTI](https://lntinfotech.com). My primary job as a backend developer. I love to build websites, solve problems.
+I am currently working for [LTI](https://lntinfotech.com). My primary job as a full stack developer. I love to build websites, solve problems.
 <br>
 Technology excites me. I love to learn new technology and building applications.
 <br><br>

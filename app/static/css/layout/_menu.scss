@@ -48,10 +48,11 @@
 				border-top: dotted 1px _palette(border);
 				margin: 1.5em 0 0 0;
 				padding: 1.5em 0 0 0;
-
+				
 				a {
 					display: block;
-					border-bottom: 0;
+					border-bottom: 5px solid red;
+					
 
 					h3 {
 						@include vendor('transition', 'color #{_duration(transition)} ease');

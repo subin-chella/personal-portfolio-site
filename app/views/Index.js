@@ -13,13 +13,13 @@ const Index = () => (
         or you can check out my {' '}
         <Link to="/resume">resume</Link>, {' '}
         <Link to="/projects">projects</Link>, {' '}
-        view <Link to="/stats">site statistics</Link>, {' '}
+        view <Link to="/stats">statistics</Link>, {' '}
         or <Link to="/contact">contact</Link> me.
       </p>     
         </div>
       </header>
       <h4><Link to="/">About this website</Link></h4>
-      <p>A beautiful, responsive, react app written with modern Javascript.</p>
+      <p>A beautiful, responsive, react app written with modern Javascript. Source code can be found <a href="https://github.com/subin-chella/personal-portfolio-site" target="_blank">here</a> </p>
      </article>
   </Main>
 );

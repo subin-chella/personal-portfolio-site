@@ -11,7 +11,11 @@ const data = {
   location: {
     label: 'Current city',
     value: 'Chennai, IN',
-  }
+  } ,books: {
+    label: 'Books read this year',
+    value: 4,
+    link: 'https://www.goodreads.com/subin99',
+  },
 };
 
 export default data;

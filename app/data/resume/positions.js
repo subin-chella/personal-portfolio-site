@@ -1,6 +1,6 @@
 const positions = [{
   company: 'LTI',
-  position: 'Sr Developer',
+  position: 'Full stack Developer',
   link: 'https://lntinfotech.com',
   daterange: 'January 2015 - Present',
   points: [

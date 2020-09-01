@@ -65,7 +65,7 @@ const skills = [{
 },
 {
   title: 'Spring Boot',
-  competency: 4,
+  competency: 5,
   category: ['Java'],
 },
 {
