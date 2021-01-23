@@ -1,7 +1,7 @@
 {
   "name": "personal-site",
   "version": "2.1.0",
-  "homepage": "https://todo.github.io/personal-site/",
+  "homepage": "https://subin-chella.github.io",
   "scripts": {
     "build": "rimraf ./build && webpack --config ./webpack/webpack.production.config.babel.js --progress --profile --colors",
     "postbuild": "react-snap",
@@ -9,7 +9,7 @@
     "lint": "eslint app server test webpack",
     "test": "mocha --exit --require @babel/register ./test/test.js",
     "dev": "nodemon server/server.js --ignore app/ --ignore test/ --exec babel-node",
-    "predeploy": "npm run build && cp -r public/* build/",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
@@ -37,7 +37,6 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "file-loader": "^6.0.0",
-    "gh-pages": "^2.2.0",
     "html-minify-loader": "^1.4.0",
     "html-webpack-plugin": "^4.3.0",
     "mini-css-extract-plugin": "^0.9.0",
@@ -81,6 +80,7 @@
     "eslint-plugin-mocha": "^7.0.0",
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-hooks": "^4.0.2",
+    "gh-pages": "^2.2.0",
     "mocha": "^7.1.2",
     "puppeteer": "^3.0.4",
     "react-snap": "^1.23.0",
